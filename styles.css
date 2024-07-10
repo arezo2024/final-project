@@ -1,0 +1,271 @@
+body{
+    background-color: #6a994e;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+#body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapers.com/images/hd/green-mountain-etrb0voclap7stl6.jpg);
+}
+
+#nav {
+    justify-content: center;
+    background-color: #f2e8cf;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    box-shadow: 0 0 10px black;
+}
+
+#nav a{
+    color: #022909;
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.container{
+    width: 800px;
+    height: 100%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 150px;
+}
+.container .header{
+    font-size: 2em;
+    color: #fff;
+    text-align: left;
+    margin: 30px;
+}
+.gallery{
+    width: 800px;
+    background-color: #f0ead2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.gallery h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: #011004;
+}
+.row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.images {
+    width: 250px;
+    height: 330px;
+    background-color: #d4a373;
+    color:  black;
+    padding: 10px;
+    border: 4px solid rgb(46, 45, 45);
+    position: relative;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.images img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    object-fit: cover;
+}
+.images-name {
+    width: 100%;
+    text-align: center;
+    background-color: #d5bdaf;
+    color: black;
+    height: 40px;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.form-container{
+    width: 900px;
+    height: 500px;
+    background-color: #f0ead2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 25px;
+}
+.form-container h2{
+    text-align: center;
+    color: #022909;
+    font-size: 5em;
+}
+.thanks{
+    background-image: url(https://t3.ftcdn.net/jpg/03/87/95/84/360_F_387958474_TOhBZxEZqGTqKrLulfHXVwJOoiQbLDYf.jpg);
+    width: 380px;
+    height: 500px;
+}
+.col-1{
+    width: 500px;
+}
+.col-2{
+    background-image: url(https://media.istockphoto.com/id/1399563888/vector/colorful-business-contact-and-service-concept.jpg?s=612x612&w=0&k=20&c=OdbfSdde_vMKuqfVDcFxxXbyytbCFGyvbAkU5yv8Kl0=);
+    width: 380px;
+    height: 500px;
+}
+#description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    background-color: #022909;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-shadow: 0 0 10px white inset;
+}
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    background-color: #022909;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-shadow: 0 0 10px white inset;
+}
+textarea{
+    width: 100%;
+    height: 30px;
+    background-color: #022909;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-shadow: 0 0 10px white inset;
+}
+button{
+    width: 40%;
+    height: 30px;
+    background-color: #474e48;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+button:hover{
+    background-color: #fff;
+    color: grey;
+    transition: 1s;
+    box-shadow: 0 0 20px rgb(20, 19, 19);
+}
+input[type="password"] {
+    width: 100%;
+    height: 30px;
+    background-color: #022909;
+    border-radius: 30px;
+    color: #fff;
+    padding: 7px;
+    box-shadow: 0 0 10px white inset;
+}
+.inline {
+    display: inline;
+}
+#login {
+    display: block;
+    width: 5%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 10px;
+    background-color: bisque;
+    color: black;
+}
+.visit{
+    width: 800px;
+    height: 100%;
+    background-color: #f0ead2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+.visit h1{
+    font-weight: bold;
+    color: #022909;
+    text-align: left;
+    font-size: 3em;
+}
+.visit {
+    font-weight: bold;
+    color: #242524;
+    text-align: left;
+}
+.embed{
+    width: 100%;
+    border: 10px solid rgb(4, 48, 4);
+    box-shadow: 00 25px black;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.embed iframe{
+    width: 100%;
+    object-fit: cover;
+}
+footer {
+    background-color: #f2e8cf;
+    color: #022909;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
